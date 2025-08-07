@@ -1,7 +1,5 @@
 # T&P Cell Job Portal - Tezpur University (SoE)
 
-![Tezpur University School of Engineering](https://en.wikipedia.org/wiki/Tezpur_University#/media/File:Tezpur_University_logo.png)
-
 A comprehensive, full-stack web application designed to serve as an integrated **Job Portal** and **Centralized Student Database** for the Training and Placement (T&P) Cell of the School of Engineering, Tezpur University. This platform streamlines the entire placement lifecycle, from student registration and data management to job posting and application tracking.
 
 ---
@@ -101,42 +99,6 @@ To get a local copy up and running, follow these simple steps.
         ```
 
 The application should now be running on `http://localhost:5173`.
-
----
-
-## 📂 Project Structure
-
-
-tnp-cell-portal/
-├── automation/
-│   └── newsLetterCron.js     # Cron job for email automation
-├── controllers/              # API logic
-│   ├── applicationController.js
-│   ├── jobController.js
-│   └── userController.js
-├── middlewares/              # Express middlewares
-│   ├── auth.js
-│   └── error.js
-├── models/                   # Mongoose schemas
-│   ├── applicationSchema.js
-│   ├── jobSchema.js
-│   └── userSchema.js
-├── routes/                   # API routes
-│   ├── applicationRouter.js
-│   ├── jobRouter.js
-│   └── userRouter.js
-├── frontend/                 # React frontend
-│   ├── src/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   ├── store/            # Redux Toolkit slices
-│   │   └── App.jsx
-│   └── package.json
-├── .gitignore
-├── app.js                    # Express app configuration
-├── package.json
-└── README.md
-
 
 ---
 
